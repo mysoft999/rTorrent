@@ -7,4 +7,5 @@
 脚本使用方法：
 
 wget https://raw.githubusercontent.com/mysoft999/rTorrent/main/rTorrent-CentOS7install.sh && chmod +x rTorrent-CentOS7install.sh
+
 ./rTorrent-CentOS7install.sh
