@@ -293,14 +293,14 @@ EOF
 
 # Download ruTorrent
 cd /usr/share/nginx
-wget --no-check-certificate https://raw.githubusercontent.com/mysoft999/rTorrent/main/v4.0.2.tar.gz
+wget --no-check-certificate https://raw.githubusercontent.com/mysoft999/rTorrent/main/ruTorrent-4.0.2.tar.gz
 if [ $? -eq 0 ];then
     echo -e "${green} ruTorrent下载成功 ${font}"
 else 
     echo -e "${red} ruTorrent下载失败 ${font}"
     exit 1
 fi
-tar -xzvf v4.0.2.tar.gz
+tar -xzvf ruTorrent-4.0.2.tar.gz
 mv ruTorrent-4.0.2 rutorrent
 chown -R apache:apache /usr/share/nginx/rutorrent
 
@@ -722,14 +722,14 @@ EOF
 
 # Download ruTorrent
 cd /usr/share/nginx
-wget --no-check-certificate https://raw.githubusercontent.com/mysoft999/rTorrent/main/v4.0.2.tar.gz
+wget --no-check-certificate https://raw.githubusercontent.com/mysoft999/rTorrent/main/ruTorrent-4.0.2.tar.gz
 if [ $? -eq 0 ];then
     echo -e "${green} ruTorrent下载成功 ${font}"
 else 
     echo -e "${red} ruTorrent下载失败 ${font}"
     exit 1
 fi
-tar -xzvf v4.0.2.tar.gz
+tar -xzvf ruTorrent-4.0.2.tar.gz
 mv ruTorrent-4.0.2 rutorrentt
 chown -R apache:apache /usr/share/nginx/rutorrent
 
